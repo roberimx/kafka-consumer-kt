@@ -1,0 +1,8 @@
+spring:
+  kafka:
+    bootstrap-servers: 127.0.0.1:9092
+me.tecuani.kafkaconsumer:
+  topic: "me.tecuani.demo.kafka.topic"
+  group: "me.tecuani.demo.kafka.group"
+  partitions: 2
+  replicas: 1
